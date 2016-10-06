@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width: 480px) {
+	.intro {
+		height: 550px;
+		width: 100%;
+		background: #CF3A3C;
+		position:relative;
+	}
+	
+	.top-left {
+		position: absolute;
+    	left: 0;
+    	top: 0;
+		width:40%;
+		height:100px;
+		background: #000000;
+	}
+}
