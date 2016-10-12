@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar {
+	background-color:#DB171A;
+	height:150px;
+	width:100%;
+}
+
+li {
+	display:inline;
+}
+
+li a {
+	text-decoration:none;
+}
+
+.intro {
+	background-color:#1614D4;
+	height:400px;
+	width:100%;
+}
+
+@media all and (min-width: 320px) and (max-width: 480px) {
+	.navbar {
+		background-color:#0F0707;
+	}
+}
+
+@media all and (min-width: 481px) and (max-width: 640px) {
+	.navbar {
+		background-color:#901416;
+	}
+}
+
+@media all and (min-width: 641px) and (max-width: 960px) {
+	.navbar {
+		background-color:#11E758;
+	}
+}
+
+@media all and (min-width: 961px) and (max-width: 1024px) {
+	.navbar {
+		background-color:#DBE00E;
+	}
+}
+
+@media all and (min-width: 1025px) and (max-width: 1281px) {
+	.navbar {
+		background-color:#F108D3;
+	}
+}
