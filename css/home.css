@@ -8,6 +8,7 @@
 .navbar-default .navbar-brand {
 	font-family: "Kaushan Script","Helvetica Neue", Helvetica, Arial, cursive;
 	color:#F3F1F1;
+	font-size:24px;
 }
 
 /* Colour for when i hover over my name or if i touch it on a mobile device*/
@@ -39,6 +40,32 @@
 	background-color: #050FD1;
 }
 
+/* This css rule affects all the list items in our dropdown and our desktop version of website*/
 .navbar-default .nav li a {
 	text-transform:uppercase;
+	font-family: "Kaushan Script","Helvetica Neue", Helvetica, Arial, cursive;
+	font-weight:400;
+	letter-spacing:1px;
+	color:#FFFFFF;
+}
+
+ /* Sets the list items to green when hovered over in both nab and dropdown*/
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+	outline:0;
+	color:#7FFF00;
+}
+
+/* Selects all child tags after a certain class. ( This one select all tags right aftet the .active class*/
+.navbar-default .navbar-nav > .active > a {
+	border-radius: 0;
+	colour: #FFFFFF;
+	background-color:#7FFF00;
+}
+
+/* Changes color of the of the active a class when hovered or focused on*/
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color:#FFFFFF;
+	background-color: #17d0d5;
 }
