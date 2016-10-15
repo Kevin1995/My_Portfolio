@@ -1,9 +1,44 @@
+/* Colour of navbar as a whole*/
 .navbar-default {
 	border-color:transparent;
 	background-color:#050FD1;
 }
 
+/* Font family and size for my name in the navbar */
 .navbar-default .navbar-brand {
 	font-family: "Kaushan Script","Helvetica Neue", Helvetica, Arial, cursive;
 	color:#F3F1F1;
+}
+
+/* Colour for when i hover over my name or if i touch it on a mobile device*/
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active{
+	color:#7FFF00;
+}
+
+/* Border between navbar header and the dropdown section on mobile*/
+.navbar-default .navbar-collapse {
+	border-color: rgba(5, 15, 210, 1);
+}
+
+/* The border colour of button*/
+.navbar-default .navbar-toggle {
+	border-color:#050FD1;
+}
+
+/* The white lines in button become as white as my name to highlight the button on top of blue*/
+.navbar-default .navbar-toggle .icon-bar {
+	background-color:#FFFFFF;
+}
+
+/* background colour when we tap or hover over the button*/
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background-color: #050FD1;
+}
+
+.navbar-default .nav li a {
+	text-transform:uppercase;
 }
