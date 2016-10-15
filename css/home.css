@@ -87,4 +87,17 @@
 		-moz-transition: all .3s;
 		transition: all .3s;
 	}
+	
+	.navbar-default .navbar-nav > .active > a {
+		border-radius: 3px;
+	}
+	
+	.navbar-default.navbar-shrink {
+		padding: 10px 0;
+		background-color: #050FD1;
+	}
+	
+	.navbar-default.navbar-shrink .navbar-brand {
+		font-size:24px;
+	}
 }
