@@ -240,3 +240,15 @@ header .intro-text .intro-heading {
         padding: 150px 0;
     }
 }
+
+#portfolio .portfolio-item {
+	right: 0;
+	margin: 0 0 15px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+	display:block;
+	position:relative;
+	margin:0 auto;
+	max-width:400px;
+}
