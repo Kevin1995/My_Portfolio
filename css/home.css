@@ -125,6 +125,7 @@ h6 {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #FFFFFF;
+	font-size:30px;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -190,7 +191,6 @@ h6 {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -206,7 +206,7 @@ h6 {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: 30px;
     }
 }
 
