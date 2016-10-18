@@ -1,10 +1,62 @@
 @charset "utf-8";
 /* CSS Document */
 
+body {
+    overflow-x: hidden;
+    font-family: "Roboto Slab","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.text-muted {
+    color: #777;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color: #1ee2e7;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #17d0d5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.bt-light-grey {
+    background-color: #f7f7f7;
+}
+
 /* Colour of navbar as a whole*/
 .navbar-default {
 	border-color:transparent;
-	background-color:#050FD1;
+	background-color:#1465B9;
 }
 
 /* Font family and size for my name in the navbar */
@@ -97,7 +149,7 @@
 	
 	.navbar-default.navbar-shrink {
 		padding: 10px 0;
-		background-color: #050FD1;
+		background-color: #1465B9;
 	}
 	
 	.navbar-default.navbar-shrink .navbar-brand {
