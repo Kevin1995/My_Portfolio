@@ -32,13 +32,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="">
-                        <a class="page-scroll" href="#services">About Me</a>
+                        <a class="page-scroll" href="#about-me">About Me</a>
                     </li>
                     <li class="">
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="">
-                        <a class="page-scroll" href="#about">Hire Kevin</a>
+                        <a class="page-scroll" href="#hire-me">Hire Me</a>
                     </li>
                 </ul>
             </div>
@@ -53,7 +53,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Hello Everybody</div>
                 <div class="intro-heading">My passion is video games and my best work is below.</div>
-                <a href="#services" class="page-scroll btn btn-xl">Portfolio</a>
+                <a href="#portfolio" class="page-scroll btn btn-xl">Portfolio</a>
             </div>
         </div>
     </header>
@@ -417,6 +417,27 @@
         </div>
     </footer>
     
-    
+<script type="text/javascript">
+// Scrolls to the href on page if the id is the same in the nav.
+  $(function() {
+	$('a.page-scroll').bind('click', function(event) {
+		var selection = $(this);
+		$('html, body').stop().animate(
+			{ scrollTop: $(selection.attr('href')).offset().top
+		}, 'easeInOutExpo');
+		event.preventDefault();
+	});
+  });
+  
+  // Highlight the top nav as scrolling occurs
+  $('body').scrollspy({
+	  target: '.navbar-fixed-top'
+  })
+  
+  // Closes the Responsive Menu on Menu Item Click
+  $('.navbar-collapse ul li a').click(function() {
+	  $('.navbar-toggle:visible').click();
+  });
+</script>
 </body>
 </html>
