@@ -395,18 +395,50 @@ body {
 footer {
 	padding:25px 0;
 	text-align:center;
+	background-color:#63DFE1;
 }
 
 footer span.copyright {
 	text-transform:uppercase;
-	text-transform:none;
 	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	line-height: 40px;
+	color:#FFFFFF;
 }
 
 footer ul.quicklinks {
 	margin-bottom: 0;
 	text-transform:uppercase;
-	text-transform:none;
 	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:40px;
+}
+
+ul.quicklinks {
+	margin-bottom:0;
+}
+
+ul.quicklinks a {
+	margin-bottom:0;
+	color: #ffffff;
+}
+
+
+ul.social-buttons li a {
+	display:block;
+	width:40px;
+	height:40px;
+	border-radius:100%;
+	font-size:20px;
+	line-height:40px;
+	outline:0;
+	color:#fff;
+	background-color:#63DFE1;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #13E452;
 }
