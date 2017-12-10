@@ -1,0 +1,48 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body, html {
+    height: 100%;
+}
+
+.login-page {
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    height:100%;
+}
+
+.login-form {
+    width: 480px;
+    margin: auto;
+}
+
+form {
+    width: 100%;
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+input, button {
+    width: 100%;
+    margin: 5px 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    body, html {
+        height: 0%;
+    }
+
+    .login-form {
+        width: 200px;
+        margin: auto;
+    }
+}
+

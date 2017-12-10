@@ -1,0 +1,2 @@
+To remember the user last logged in with a cookie part please load the index.php page 
+as it will redirect to home.php remembering the last logged in user.
